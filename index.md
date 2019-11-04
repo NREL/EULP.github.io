@@ -2,6 +2,7 @@
 layout: default
 title: Overview
 nav_order: 1
+has_children: true
 ---
 
 Overview
@@ -14,21 +15,3 @@ Storing our project on GitHub is important for the following reasons:
   * EULP-RW team members can access/run everything contained in the repository
   * Development is tracked and managed (i.e., subversioned)
   * Code changes are first reviewed before they are merged into the main code base
-
-Table of contents
------------------
-* [Overview](index.html)
-* [Environment](pages/environment.html)
-* [Getting started](pages/getting_started.html)
-  * [Cloning the repository](pages/getting_started.html#cloning-the-repository)
-  * [Creating a new branch](pages/getting_started.html#creating-a-new-branch)
-  * [Installation](pages/getting_started.html#installation)
-  * [Testing your code](pages/getting_started.html#testing-your-code)
-  * [Checking coverage](pages/getting_started.html#checking-coverage)
-  * [Generating API](pages/getting_started.html#generating-api)
-  * [Style checking](pages/getting_started.html#style-checking)
-  * [Code formatting](pages/getting_started.html#code-formatting)
-  * [Push code](pages/getting_started.html#push-code)
-* [Continuous integration](pages/continuous_integration.html)
-* [Pull request](pages/pull_request.html)
-* [Other resources](pages/other_resources.html)

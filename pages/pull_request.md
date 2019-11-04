@@ -2,6 +2,7 @@
 layout: default
 title: Pull request
 nav_order: 5
+has_children: true
 ---
 
 Pull request
