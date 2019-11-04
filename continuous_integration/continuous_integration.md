@@ -3,6 +3,7 @@ layout: default
 title: Continuous integration
 nav_order: 4
 has_children: true
+has_toc: false
 ---
 
 Continuous integration

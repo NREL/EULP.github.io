@@ -1,0 +1,16 @@
+---
+layout: default
+title: Code formatting
+nav_order: 3
+has_children: true
+has_toc: false
+---
+Code formatting
+---------------
+If you find that some of your code does not conform to the style guide, use [autopep8](https://pypi.org/project/autopep8/0.8/) to automatically format your Python code.
+
+To run autopep8:
+```
+python3 -m autopep8 -i -r -a .
+```
+Run `flake8` again to ensure that all formatting has been corrected. If it has not, manually format your remaining Python code.

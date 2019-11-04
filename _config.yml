@@ -2,3 +2,8 @@ remote_theme: pmarsceill/just-the-docs
 title: [EULP Developer Guide]
 description: [Documentation for EULP]
 heading_anchors: true
+color_scheme: "dark"
+aux_links:
+  "EULP Developer Guide on GitHub":
+    - "//nrel.github.io/EULP.github.io"
+footer_content: "Contact Joe Robertson (joseph.robertson@nrel.gov) for more information."
