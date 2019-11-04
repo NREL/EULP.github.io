@@ -4,6 +4,7 @@ title: Creating a new branch
 nav_order: 3
 has_children: true
 has_toc: false
+parent: Getting started
 ---
 
 Creating a new branch

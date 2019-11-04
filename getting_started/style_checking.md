@@ -4,6 +4,7 @@ title: Style checking
 nav_order: 3
 has_children: true
 has_toc: false
+parent: Getting started
 ---
 Style checking
 --------------
