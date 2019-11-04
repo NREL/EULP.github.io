@@ -1,3 +1,4 @@
-theme: jekyll-theme-slate
+remote_theme: pmarsceill/just-the-docs
 title: [EULP Developer Guide]
+description: [Documentation for EULP]
 heading_anchors: true

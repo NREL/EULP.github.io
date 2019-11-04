@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Continuous integration
+nav_order: 4
 ---
 
 Continuous integration
