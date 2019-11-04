@@ -1,6 +1,9 @@
 ---
-layout: page
+layout: default
 title: Overview
+has_children: true
+has_toc: false
+nav_order: 1
 ---
 
 Overview
@@ -28,6 +31,6 @@ Table of contents
   * [Style checking](pages/getting_started.html#style-checking)
   * [Code formatting](pages/getting_started.html#code-formatting)
   * [Push code](pages/getting_started.html#push-code)
-* [Continuous integration](pages/continuous-integration.html)
-* [Pull request](pages/pull-request.html)
-* [Other resources](pages/other-resources.html)
+* [Continuous integration](pages/continuous_integration.html)
+* [Pull request](pages/pull_request.html)
+* [Other resources](pages/other_resources.html)
