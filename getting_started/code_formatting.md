@@ -12,6 +12,6 @@ If you find that some of your code does not conform to the style guide, use [aut
 
 To run autopep8:
 ```
-python3 -m autopep8 -i -r -a .
+$ python3 -m autopep8 -i -r -a .
 ```
 Run `flake8` again to ensure that all formatting has been corrected. If it has not, manually format your remaining Python code.

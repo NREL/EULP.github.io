@@ -13,5 +13,5 @@ At this point you are ready to add and update code in the repository. All commit
 
 To run your tests:
 ```
-python3 -m pytest -v
+$ python3 -m pytest -v
 ```

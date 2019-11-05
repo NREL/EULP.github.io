@@ -11,5 +11,5 @@ Creating a new branch
 ---------------------
 Create your own branch from master:
 ```
-git checkout -b <new-branch-name>
+$ git checkout -b <new-branch-name>
 ```

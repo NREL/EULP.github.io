@@ -13,27 +13,27 @@ First, create a directory for the EULP repositories on your computer.  If you do
 
 For Windows users:
 ```
-mkdir /c/EULP
+$ mkdir /c/EULP
 ```
 For macOS users:
 ```
-mkdir $HOME/EULP
+$ mkdir $HOME/EULP
 ```
 Navigate to the newly created directory.
 
 For Windows users:
 ```
-cd /c/EULP
+$ cd /c/EULP
 ```
 For macOS users:
 ```
-cd $HOME/EULP
+$ cd $HOME/EULP
 ```
 Clone the repository to your computer:
 ```
-git clone git@github.com:NREL/<name-of-repository>.git
+$ git clone git@github.com:NREL/<name-of-repository>.git
 ```
 Navigate into the new repository:
 ```
-cd /path/to/repository
+$ cd /path/to/repository
 ```
