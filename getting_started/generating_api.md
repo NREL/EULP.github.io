@@ -8,7 +8,7 @@ parent: Getting started
 ---
 Generating API
 --------------
-To auto-generate API documentation:
+Any time new methods, classes, etc. are added to the API, you should generate new documentation for the API. To auto-generate API documentation:
 ```
 $ python3 -m pdoc --html <name-of-code-folder> -o ./docs --force
 $ mv docs/<name-of-code-folder>/* docs/
