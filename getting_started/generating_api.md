@@ -10,6 +10,7 @@ Generating API
 --------------
 Any time new methods, classes, etc. are added to the API, you should generate new documentation for the API. To auto-generate API documentation:
 ```
+$ rm -rf ./docs/*
 $ python3 -m pdoc --html <name-of-code-folder> -o ./docs --force
 $ mv docs/<name-of-code-folder>/* docs/
 $ rm -rf docs/<name-of-code-folder>
