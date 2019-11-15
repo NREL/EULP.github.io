@@ -16,4 +16,4 @@ Once you have finished your code updates and are ready to have your changes merg
 
 Be sure to delete your branch after it has been merged.
 
-As a note, every time a commit is made to the master branch the API documentation will be built and stored on GitHub Pages. See the master branch's API documentation by clicking on the link located in the repository's README file.
+As a note, every time you push code to the master branch the API documentation and coverage report will be built and stored on static websites hosted by Amazon S3. See the master branch's API documentation and coverage report by clicking on the links located in the repository's README file.
