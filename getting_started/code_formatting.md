@@ -8,7 +8,7 @@ parent: Getting started
 ---
 Code formatting
 ---------------
-If you find that some of your code does not conform to the style guide, use [autopep8](https://pypi.org/project/autopep8/0.8/) to automatically format your Python code.
+If you find that some of your code does not conform to the style guide, use [autopep8](https://pypi.org/project/autopep8/0.8/) to automatically format your Python code. Note that this will not correct issues like unused variables.
 
 To run autopep8:
 ```
