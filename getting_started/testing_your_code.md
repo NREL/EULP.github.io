@@ -15,7 +15,7 @@ Placing your new code in the correct folder will ensure that it gets covered by 
 
 To run your tests:
 ```
-$ python3 -m pytest -v
+$ pytest -v
 ```
 
 We do not want to be subversioning any data in the repositories. The general practice would be to query once for externally-stored data (e.g., from an AWS S3 bucket), cache the data locally, and then omit subversioning that cached data folder using updates to the `.gitignore` file.
