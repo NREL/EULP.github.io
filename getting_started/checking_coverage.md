@@ -12,8 +12,8 @@ You will also want to make sure that your tests cover most or all of your code. 
 
 To generate your coverage report locally:
 ```
-$ python3 -m coverage run --source=<name-of-code-folder> -m pytest
-$ python3 -m coverage report -m
-$ python3 -m coverage html -d ./coverage_report
+$ coverage run --source=<name-of-code-folder> -m pytest
+$ coverage report -m
+$ coverage html -d ./coverage_report
 ```
 Locally generated coverage report files can be found within the `coverage_report` folder. The `index.html` will report on results at the module level, whereas the `*.html` files will report on results at the file level. We are not subversioning any coverage report files.
