@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Installation
-nav_order: 8
+title: Notebooks
+nav_order: 9
 has_children: true
 has_toc: false
 parent: Getting started

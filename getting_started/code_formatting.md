@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Code formatting
-nav_order: 9
+nav_order: 8
 has_children: true
 has_toc: false
 parent: Getting started
