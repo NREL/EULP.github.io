@@ -9,13 +9,15 @@ parent: Getting started
 
 Installation
 ------------
-Download and install [conda](https://docs.conda.io/en/latest/).
+Download and install the latest version of [conda](https://docs.conda.io/en/latest/) (version 4.4 or above).
 
 Create a new conda environment:
 ```
 $ conda create -n <name-of-repository> python=3.6 pip
-$ source activate <name-of-repository>
+$ conda activate <name-of-repository>
 ```
+
+(If you're using a version of `conda` older than 4.4, you may need to instead use `source activate <name-of-repository>`.)
 
 Make sure you are using the latest version of `pip`:
 ```
