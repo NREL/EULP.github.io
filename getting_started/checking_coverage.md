@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Checking coverage
-nav_order: 5
+nav_order: 7
 has_children: true
 has_toc: false
 parent: Getting started
