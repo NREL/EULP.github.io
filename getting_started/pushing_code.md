@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pushing code
-nav_order: 10
+nav_order: 11
 has_children: true
 has_toc: false
 parent: Getting started

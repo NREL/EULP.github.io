@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Notebooks
-nav_order: 9
+nav_order: 5
 has_children: true
 has_toc: false
 parent: Getting started
@@ -9,6 +9,8 @@ parent: Getting started
 
 Notebooks
 ------------
+Notebooks are a good way to import and use classes, methods, etc. that are defined elsewhere in the source code files. Notebooks should not be used to store any source code.
+
 Install a kernel for your conda environment:
 ```
 $ python -m ipykernel install --user --name <name-of-repository> --display-name <name-of-repository>
