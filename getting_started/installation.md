@@ -11,10 +11,16 @@ Installation
 ------------
 Download and install the latest version of [conda](https://docs.conda.io/en/latest/) (version 4.4 or above).
 
-Create a new conda environment:
+Create a new conda environment with **python 3.8** or above:
 ```
-$ conda create -n <name-of-repository> python=3.6 pip
+$ conda create -n <name-of-repository> python=3.8 pip
 $ conda activate <name-of-repository>
+```
+
+For example, if you're using the [EULP-data-analysis](https://github.com/NREL/EULP-data-analysis) repository:
+```
+$ conda create -n eulpda python=3.8 pip
+$ conda activate eulpda
 ```
 
 (If you're using a version of `conda` older than 4.4, you may need to instead use `source activate <name-of-repository>`.)
