@@ -9,7 +9,14 @@ parent: Getting started
 
 Installation
 ------------
-Download and install the latest version of [conda](https://docs.conda.io/en/latest/) (version 4.4 or above).
+Download and install the latest version of [Anaconda3](https://www.anaconda.com/products/individual). Be sure to check the optional "Add Anaconda3 to the system PATH environment variable" box during installation:
+
+![image](images/anaconda3setup.jpg)
+
+Check your installed versiom of `conda` using:
+```
+$ conda --version
+```
 
 Create a new conda environment with **python 3.8** or above:
 ```
