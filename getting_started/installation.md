@@ -20,7 +20,7 @@ $ conda --version
 
 Create a new conda environment with **python 3.8** or above:
 ```
-$ conda create -n <name-of-repository> python=3.8 pip
+$ conda create -y -n <name-of-repository> python=3.8 pip
 $ conda activate <name-of-repository>
 ```
 
