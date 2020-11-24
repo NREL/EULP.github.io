@@ -13,7 +13,7 @@ Download and install the latest version of [Anaconda3](https://www.anaconda.com/
 
 ![image](images/anaconda3setup.jpg)
 
-Check your installed versiom of `conda` using:
+Check your installed version of `conda` using:
 ```
 $ conda --version
 ```
@@ -30,7 +30,7 @@ $ conda create -n eulpda python=3.8 pip
 $ conda activate eulpda
 ```
 
-(If you're using a version of `conda` older than 4.4, you may need to instead use `source activate <name-of-repository>`.)
+(If you're using a version of `conda` older than 4.4 or you're working outside of the Anaconda Prompt (e.g., using Git Bash), you may need to instead use `source activate <name-of-repository>`.)
 
 Make sure you are using the latest version of `pip`:
 ```
