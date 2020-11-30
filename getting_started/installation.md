@@ -30,7 +30,12 @@ $ conda create -n eulpda python=3.8 pip
 $ conda activate eulpda
 ```
 
-(If you're using a version of `conda` older than 4.4 or you're working outside of the Anaconda Prompt (e.g., using Git Bash), you may need to instead use `source activate <name-of-repository>`.)
+(If you're using a version of `conda` older than 4.4 or you're working outside of the Anaconda Prompt, e.g. using Git Bash, you may need to instead use `source activate <name-of-repository>`.)
+
+Ensure that you have navigated to the top level of your cloned repository. You will execute all your `pip` commands from this location. For example:
+```
+$ cd /path/to/repository
+```
 
 Make sure you are using the latest version of `pip`:
 ```
