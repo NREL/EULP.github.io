@@ -7,8 +7,8 @@ has_toc: false
 parent: Getting started
 ---
 
-Installation
-------------
+# Installation
+
 Download and install the latest version of [Anaconda3](https://www.anaconda.com/products/individual). Be sure to check the optional "Add Anaconda3 to the system PATH environment variable" box during installation:
 
 ![image](images/anaconda3setup.jpg)
@@ -55,4 +55,6 @@ Install the environment needed for this repository:
 $ pip install -e .[dev]
 ```
 
-The previous command will install all the dependency packages that are called out in the `setup.py` file. Some of these packages are required for running things like tests and coverage, while others are required to run classes and methods found in the source code files. 
+The previous command will install all the dependency packages that are called out in the `setup.py` file. Some of these packages are required for running things like tests and coverage, while others are required to run classes and methods found in the source code files.
+
+Some End Use Load Profile packages require [additional installation](additional_installation.md) steps to be performed.

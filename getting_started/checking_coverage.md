@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Checking coverage
-nav_order: 7
+nav_order: 8
 has_children: true
 has_toc: false
 parent: Getting started
 ---
-Checking coverage
------------------
+
+# Checking coverage
+
 You will also want to make sure that your tests cover most or all of your code. This project uses the [Coverage.py](https://coverage.readthedocs.io/en/v4.5.x/) tool for measuring code coverage.
 
 To generate your coverage report locally:

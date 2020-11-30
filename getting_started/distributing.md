@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Distributing
-nav_order: 12
+nav_order: 13
 has_children: true
 has_toc: false
 parent: Getting started
 ---
-Distributing
-------------
+
+# Distributing
+
 You can [generate distribution archives](https://packaging.python.org/tutorials/packaging-projects/#generating-distribution-archives) using the following commands:
 ```
 $ python setup.py sdist bdist_wheel
