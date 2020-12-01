@@ -61,7 +61,7 @@
   },"10": {
     "doc": "Compatibility matrix",
     "title": "Compatibility matrix",
-    "content": "|EULP-data-analysis|EULP-uncertainty-quantification|EULP-occupancy-modeling|EULP-data-cleaning|EULP-calibration-and-validation|:—–:|:—–:|:—–:|:—–:|:—–:| 0.1.0 | 0.1.0 | 0.1.0 | 0.1.0 | 0.1.0 | . ",
+    "content": "| EULP-data-analysis | EULP-uncertainty-quantification | EULP-occupancy-modeling | EULP-data-cleaning | EULP-calibration-and-validation | . | 0.1.0 | 0.1.0 | 0.1.0 | 0.1.0 | 0.1.0 | . ",
     "url": "http://localhost:4000/other_resources/compatibility_matrix.html",
     "relUrl": "/other_resources/compatibility_matrix.html"
   },"11": {
@@ -145,7 +145,7 @@
   },"24": {
     "doc": "Related repositories",
     "title": "Related repositories",
-    "content": "Related repositories: . | resstock-estimation (repository for tsv file makers, each pertaining to different data sources) | OpenStudio-BuildStock (repository for modeling the existing building stock using OpenStudio/EnergyPlus) | buildstockbatch (repository for running and managing batch OpenStudio-BuildStock simulations) | . ",
+    "content": ". | resstock-estimation (repository for tsv file makers, each pertaining to different data sources) | OpenStudio-BuildStock (repository for modeling the existing building stock using OpenStudio/EnergyPlus) | buildstockbatch (repository for running and managing batch OpenStudio-BuildStock simulations) | . ",
     "url": "http://localhost:4000/other_resources/related_repositories.html",
     "relUrl": "/other_resources/related_repositories.html"
   },"25": {
