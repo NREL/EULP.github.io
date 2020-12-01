@@ -7,8 +7,8 @@ has_toc: false
 parent: Getting started
 ---
 
-Creating a new branch
----------------------
+# Creating a new branch
+
 Create your own branch from master:
 ```
 $ git checkout -b <new-branch-name>

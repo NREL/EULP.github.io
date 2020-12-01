@@ -1,14 +1,14 @@
 ---
 layout: default
 title: Writing your code
-nav_order: 4
+nav_order: 5
 has_children: true
 has_toc: false
 parent: Getting started
 ---
 
-Writing your code
------------------
+# Writing your code
+
 At this point you are ready to add/update code in the repository. Any new code should be located within a subfolder of the `name-of-code-folder` folder (e.g., within a subfolder of `eulpda` for EULP-data-analysis).
 
 Placing your new code in the correct folder will ensure that it gets covered by test coverage, style checks, and API generation.
