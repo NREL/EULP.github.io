@@ -59,96 +59,108 @@
     "url": "http://localhost:4000/getting_started/code_formatting.html",
     "relUrl": "/getting_started/code_formatting.html"
   },"10": {
+    "doc": "Compatibility matrix",
+    "title": "Compatibility matrix",
+    "content": "| EULP-data-analysis | EULP-uncertainty-quantification | EULP-occupancy-modeling | EULP-data-cleaning | EULP-calibration-and-validation | . | 0.1.0 | 0.1.0 | 0.1.0 | 0.1.0 | 0.1.0 | . ",
+    "url": "http://localhost:4000/other_resources/compatibility_matrix.html",
+    "relUrl": "/other_resources/compatibility_matrix.html"
+  },"11": {
     "doc": "Continuous integration",
     "title": "Continuous integration",
     "content": "Every time you push to the remote repository, a series of tasks are triggered and run using CircleCI. You can see this by clicking on the badge at the top of the README (or by clicking here and then navigating to the project). If all of the tasks pass, you will see a green “Success” icon alongside your latest commit on the projects CircleCI page. If you see a red “Failed” icon, one or more tasks have failed. Click on the icon to find out which task(s) have failed. On your local machine, fix the failing test(s) (using the guidance from the getting started steps). Merging any pull requests into the main code base will require that all tasks are passing on CircleCI. You can see status of your checks toward the bottom of your pull request. ",
     "url": "http://localhost:4000/continuous_integration/continuous_integration.html",
     "relUrl": "/continuous_integration/continuous_integration.html"
-  },"11": {
+  },"12": {
     "doc": "Creating a new branch",
     "title": "Creating a new branch",
-    "content": "Create your own branch from master: . $ git checkout -b &lt;new-branch-name&gt; . ",
+    "content": "Create your own branch off of the develop branch: . $ git checkout -b &lt;new-branch-name&gt; . ",
     "url": "http://localhost:4000/getting_started/creating_a_new_branch.html",
     "relUrl": "/getting_started/creating_a_new_branch.html"
-  },"12": {
+  },"13": {
     "doc": "Distributing",
     "title": "Distributing",
     "content": "You can generate distribution archives using the following commands: . $ python setup.py sdist bdist_wheel . This will create a source archive (tar.gz) and a built distribution (whl). You can then build the whl using the familiar pip install command: . pip install dist/*.whl . ",
     "url": "http://localhost:4000/getting_started/distributing.html",
     "relUrl": "/getting_started/distributing.html"
-  },"13": {
+  },"14": {
     "doc": "Environment",
     "title": "Environment",
     "content": "Source code should be written in the Python 3.0 language, and stored in files with the .py extension. Specifically, you will need to install Python 3.6.x (this version will be installed automatically within your environment). Keep in mind that this version of the language is incompatible with the 2.x line of releases. Notebooks may be used, but only as a convenient method for calling Python classes, methods, etc. that are defined elsewhere in the source code files. All source code .py files should be located within subfolders of the name-of-code-folder folder. For example, see the current structure of the EULP-data-analysis code folder. The subfolders are analytics, data_generation, smart_query, etc. whereas the name-of-code-folder is eulpda. Maintaining this general structure is important because it will ensure that the API documentation format is preserved. In general we want to be developing code that complies with Python PEP 257, which describes the semantics and conventions association with Python docstrings. Writing well-documented, compliant code will facilitate cleaner and more useful API documentation. For this project, pdoc3 will be used to auto-generate API documentation. You do not need to worry about subversioning any API documentation; it will be generated automatically for every commit to the master branch. You can, however, generate it locally to ensure that it contains everything you believe it should. This will be explained further in the following section. ",
     "url": "http://localhost:4000/environment/environment.html",
     "relUrl": "/environment/environment.html"
-  },"14": {
+  },"15": {
     "doc": "Generating API",
     "title": "Generating API",
     "content": "Any time new methods, classes, etc. are added to the API, you should locally generate new documentation for the API to ensure that your code structure looks the way you want it to and there is plenty of detailed description. To auto-generate API documentation locally: . $ pdoc --html &lt;name-of-code-folder&gt; -o ./docs --force . Generated API documentation can be found within the docs folder. Like the coverage report, the index.html file will report on results at the module level, whereas the *.html files will report on results at the file level. We are not subversioning any API documentation files. ",
     "url": "http://localhost:4000/getting_started/generating_api.html",
     "relUrl": "/getting_started/generating_api.html"
-  },"15": {
+  },"16": {
     "doc": "Getting started",
     "title": "Getting started",
     "content": "Once you have become familiar with Git and GitHub, you are then ready to start contributing to the repositories. The following instructions are for using Git from the command line, although there exist alternative applications for using Git and GitHub (e.g., GitHub Desktop). Keep in mind that your code does not need to be in perfect shape in order to commit and subversion it within the repositories. In fact, subversioning your files sooner rather than later is a good thing, as it will help to: . | Back up your code on a remote server | Track future development on your code | Let others view your development progress | Test your code and identify next steps | . ",
     "url": "http://localhost:4000/getting_started/getting_started.html",
     "relUrl": "/getting_started/getting_started.html"
-  },"16": {
+  },"17": {
     "doc": "Overview",
     "title": "A guide to development on the End Use Load Profiles (EULP) project",
     "content": "Getting started View it on GitHub . ",
     "url": "http://localhost:4000/#a-guide-to-development-on-the-end-use-load-profiles-eulp-project",
     "relUrl": "/#a-guide-to-development-on-the-end-use-load-profiles-eulp-project"
-  },"17": {
+  },"18": {
     "doc": "Overview",
     "title": "Overview",
     "content": "The EULP project is directly supported by 5 repositories: . | EULP-data-analysis | EULP-uncertainty-quantification | EULP-occupancy-modeling | EULP-data-cleaning | EULP-calibration-and-validation | . These EULP repositories store resources, and track history, for the End Use Load Profiles (EULP) project. The repositories are currently private, meaning that contents are not visible to everyone. Only members who have been invited to the EULP-RW team have write access (and therefore read access) to the repositories. Among other things, those with write access are permitted to pull and push contents from and to the repositories, respectively. Users wishing to contribute to the repositories should be familiar with Git, the version control system software used to interact with GitHub. This set of guides provides helpful documentation and tutorials for installing and using Git, and for learning how GitHub works. Storing our project on GitHub is important for the following reasons: . | Files are stored remotely, and not just locally | EULP-RW team members can access/run everything contained in the repository | Development is tracked and managed (i.e., subversioned) | Code changes are first reviewed before they are merged into the main code base | . ",
     "url": "http://localhost:4000/",
     "relUrl": "/"
-  },"18": {
+  },"19": {
     "doc": "Installation",
     "title": "Installation",
     "content": "Download and install the latest version of Anaconda3. Be sure to check the optional “Add Anaconda3 to the system PATH environment variable” box during installation: . Check your installed version of conda using: . $ conda --version . Create a new conda environment with python 3.8 or above: . $ conda create -y -n &lt;name-of-repository&gt; python=3.8 pip $ conda activate &lt;name-of-repository&gt; . For example, if you’re using the EULP-data-analysis repository: . $ conda create -n eulpda python=3.8 pip $ conda activate eulpda . (If you’re using a version of conda older than 4.4 or you’re working outside of the Anaconda Prompt, e.g. using Git Bash, you may need to instead use source activate &lt;name-of-repository&gt;.) . Ensure that you have navigated to the top level of your cloned repository. You will execute all your pip commands from this location. For example: . $ cd /path/to/repository . Make sure you are using the latest version of pip: . $ pip install --upgrade pip . Add or update any dependency packages to the install_requires list in setup.py (file located at the top level of each repository). For example, maybe for the analysis pandas is needed for dataframe manipulation and matplotlib is needed for plotting. The following code block shows how to add these packages to setup.py. install_requires=[ 'pandas', 'matplotlib' ], . Install the environment needed for this repository: . $ pip install -e .[dev] . The previous command will install all the dependency packages that are called out in the setup.py file. Some of these packages are required for running things like tests and coverage, while others are required to run classes and methods found in the source code files. Some End Use Load Profile packages require additional installation steps to be performed. ",
     "url": "http://localhost:4000/getting_started/installation.html",
     "relUrl": "/getting_started/installation.html"
-  },"19": {
+  },"20": {
     "doc": "Notebooks",
     "title": "Notebooks",
     "content": "Notebooks are a good way to import and use classes, methods, etc. that are defined elsewhere in the source code files. Notebooks should not be used to store any source code. Install a kernel for your conda environment: . $ python -m ipykernel install --user --name &lt;name-of-repository&gt; --display-name &lt;name-of-repository&gt; . Open your notebook: . $ jupyter notebook . Select Change kernel: &lt;name-of-repository&gt; from the “Kernel” dropdown menu. You are now ready to import and use methods from the EULP API. For example, for the EULP-data-analysis repository you can load classes by: . $ from eulpda.smart_query.EULPAthena import EULPAthena . ",
     "url": "http://localhost:4000/getting_started/notebooks.html",
     "relUrl": "/getting_started/notebooks.html"
-  },"20": {
+  },"21": {
     "doc": "Other resources",
     "title": "Other resources",
-    "content": "Related repositories: . | OpenStudio-BuildStock (repository for modeling the existing building stock using OpenStudio/EnergyPlus) | buildstockbatch (repository for running and managing batch OpenStudio-BuildStock simulations) | . ",
+    "content": " ",
     "url": "http://localhost:4000/other_resources/other_resources.html",
     "relUrl": "/other_resources/other_resources.html"
-  },"21": {
+  },"22": {
     "doc": "Pull request",
     "title": "Pull request",
-    "content": "Once you have finished your code updates and are ready to have your changes merged into the main code base, you can then create a pull request (if you have not done so already). Be sure to update the changelog (i.e., CHANGELOG.md located at the top level of the repository) for any new features or fixes that your pull request addresses. For the pull request, assign the appropriate “Assignees” (e.g., you), “Reviewers”, “Labels”, etc. to the pull request. You are able to merge your branch into master once you have: . | Addressed all checklist items in the pre-populated pull request template | Ensured you are up-to-date with the master branch | Checked that your build is passing on CircleCI | Confirmed that you have at least one pull request approval | . Be sure to delete your branch after it has been merged. As a note, every time you push code to the master branch the API documentation and coverage report will be built and stored on static websites hosted by Amazon S3. See the master branch’s API documentation and coverage report by clicking on the links located in the repository’s README file. ",
+    "content": "Once you have finished your code updates and are ready to have your changes merged into the main code base, you can then create a pull request (if you have not done so already). Be sure to update the changelog (i.e., CHANGELOG.md located at the top level of the repository) for any new features or fixes that your pull request addresses. For the pull request, assign the appropriate “Assignees” (e.g., you), “Reviewers”, “Labels”, etc. to the pull request. You are able to merge your branch into develop once you have: . | Addressed all checklist items in the pre-populated pull request template | Ensured you are up-to-date with the develop branch | Checked that your build is passing on CircleCI | Confirmed that you have at least one pull request approval | . Be sure to delete your branch after it has been merged. As a note, every time code is pushed to the master branch the API documentation and coverage report will be built and stored on static websites hosted by Amazon S3. See the master branch’s API documentation and coverage report by clicking on the links located in the repository’s README file. ",
     "url": "http://localhost:4000/pull_request/pull_request.html",
     "relUrl": "/pull_request/pull_request.html"
-  },"22": {
+  },"23": {
     "doc": "Pushing code",
     "title": "Pushing code",
     "content": "Once you have made all your code updates and all the previous tasks have been run and are passing, you are then ready to push all your commits to the remote repository. In general, commit messages should be concise yet descriptive. Having all your tests pass locally is not required to push all your commits to the remote repository. In general, however, if your tests are failing locally then you can expect them to fail remotely. The next section describes this continuous integration process on a remote CircleCI machine in more detail. ",
     "url": "http://localhost:4000/getting_started/pushing_code.html",
     "relUrl": "/getting_started/pushing_code.html"
-  },"23": {
+  },"24": {
+    "doc": "Related repositories",
+    "title": "Related repositories",
+    "content": ". | resstock-estimation (repository for tsv file makers, each pertaining to different data sources) | OpenStudio-BuildStock (repository for modeling the existing building stock using OpenStudio/EnergyPlus) | buildstockbatch (repository for running and managing batch OpenStudio-BuildStock simulations) | . ",
+    "url": "http://localhost:4000/other_resources/related_repositories.html",
+    "relUrl": "/other_resources/related_repositories.html"
+  },"25": {
     "doc": "Style checking",
     "title": "Style checking",
     "content": "For this project, we are enforcing style guide using Flake8. This will check for things like unused variables, bad indentations, etc. To check your code style, run: . $ flake8 . If there are any issues with your code, you will see message(s) of the form &lt;file-name.py&gt;:&lt;row-number&gt;:&lt;column-number&gt;: &lt;violation-code-and-message&gt;. You can either manually edit your source code files to correct any formatting issues, or optionally run automatic formatting as described in the next section. ",
     "url": "http://localhost:4000/getting_started/style_checking.html",
     "relUrl": "/getting_started/style_checking.html"
-  },"24": {
+  },"26": {
     "doc": "Testing your code",
     "title": "Testing your code",
     "content": "At this point you are ready to add/update tests in the repository. Any new tests should be located within a subfolder of the name-of-code-folder/tests folder, e.g., within a subfolder of eulpda/tests for EULP-data-analysis. This is the folder containing all test files for EULP-data-analysis. Tests should execute portions of your code to ensure that: . | code/scripts can be run successfully | actual outputs match your expected outputs | . You can read about pytest, which should be used as the framework for testing your code. To run your tests: . $ pytest -v . ",
     "url": "http://localhost:4000/getting_started/testing_your_code.html",
     "relUrl": "/getting_started/testing_your_code.html"
-  },"25": {
+  },"27": {
     "doc": "Writing your code",
     "title": "Writing your code",
     "content": "At this point you are ready to add/update code in the repository. Any new code should be located within a subfolder of the name-of-code-folder folder (e.g., within a subfolder of eulpda for EULP-data-analysis). Placing your new code in the correct folder will ensure that it gets covered by test coverage, style checks, and API generation. We do not want to be subversioning any data in the repositories. The general practice would be to query once for externally-stored data (e.g., from an AWS S3 bucket), cache the data locally, and then omit subversioning that cached data folder using updates to the .gitignore file. ",
