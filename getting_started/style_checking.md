@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Style checking
-nav_order: 9
+nav_order: 10
 has_children: true
 has_toc: false
 parent: Getting started
 ---
-Style checking
---------------
+
+# Style checking
+
 For this project, we are enforcing style guide using [Flake8](http://flake8.pycqa.org/en/latest/). This will check for things like unused variables, bad indentations, etc.
 
 To check your code style, run:

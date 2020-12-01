@@ -1,13 +1,14 @@
 ---
 layout: default
 title: Generating API
-nav_order: 8
+nav_order: 9
 has_children: true
 has_toc: false
 parent: Getting started
 ---
-Generating API
---------------
+
+# Generating API
+
 Any time new methods, classes, etc. are added to the API, you should locally generate new documentation for the API to ensure that your code structure looks the way you want it to and there is plenty of detailed description. To auto-generate API documentation locally:
 ```
 $ pdoc --html <name-of-code-folder> -o ./docs --force

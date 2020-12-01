@@ -7,8 +7,8 @@ has_toc: false
 parent: Getting started
 ---
  
-Cloning the repository
-----------------------
+# Cloning the repository
+
 First, create a directory for the EULP repositories on your computer.  If you do not have a preference where these repositories are located, use `/c/EULP` for Windows users and `$HOME/EULP` for macOS users.
 
 For Windows users:
